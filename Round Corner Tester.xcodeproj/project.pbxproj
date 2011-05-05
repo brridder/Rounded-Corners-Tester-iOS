@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67E5269B1363314700C67F2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5269A1363314700C67F2C /* UIKit.framework */; };
+		67E5269D1363314700C67F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5269C1363314700C67F2C /* Foundation.framework */; };
+		67E5269F1363314700C67F2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5269E1363314700C67F2C /* CoreGraphics.framework */; };
+		67E526A51363314700C67F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67E526A31363314700C67F2C /* InfoPlist.strings */; };
+		67E526A81363314700C67F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526A71363314700C67F2C /* main.m */; };
+		67E526AB1363314700C67F2C /* Round_Corner_TesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526AA1363314700C67F2C /* Round_Corner_TesterAppDelegate.m */; };
+		67E526AF1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526AE1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.m */; };
+		67E526B21363314700C67F2C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E526B01363314700C67F2C /* MainWindow_iPhone.xib */; };
+		67E526B61363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526B51363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.m */; };
+		67E526B91363314700C67F2C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E526B71363314700C67F2C /* MainWindow_iPad.xib */; };
+		67E526DC13633E0A00C67F2C /* RoundedImageBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E526DB13633E0A00C67F2C /* RoundedImageBox.png */; };
+		67E526E4136342E900C67F2C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526E1136342E600C67F2C /* MainViewController.m */; };
+		67E526E5136342E900C67F2C /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E526E3136342E800C67F2C /* NSObject+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67E526961363314700C67F2C /* Round Corner Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Round Corner Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E5269A1363314700C67F2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67E5269C1363314700C67F2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67E5269E1363314700C67F2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67E526A21363314700C67F2C /* Round Corner Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Round Corner Tester-Info.plist"; sourceTree = "<group>"; };
+		67E526A41363314700C67F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67E526A61363314700C67F2C /* Round Corner Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Round Corner Tester-Prefix.pch"; sourceTree = "<group>"; };
+		67E526A71363314700C67F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67E526A91363314700C67F2C /* Round_Corner_TesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Round_Corner_TesterAppDelegate.h; sourceTree = "<group>"; };
+		67E526AA1363314700C67F2C /* Round_Corner_TesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Round_Corner_TesterAppDelegate.m; sourceTree = "<group>"; };
+		67E526AD1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Round_Corner_TesterAppDelegate_iPhone.h; path = iPhone/Round_Corner_TesterAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		67E526AE1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Round_Corner_TesterAppDelegate_iPhone.m; path = iPhone/Round_Corner_TesterAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		67E526B11363314700C67F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		67E526B41363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Round_Corner_TesterAppDelegate_iPad.h; path = iPad/Round_Corner_TesterAppDelegate_iPad.h; sourceTree = "<group>"; };
+		67E526B51363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Round_Corner_TesterAppDelegate_iPad.m; path = iPad/Round_Corner_TesterAppDelegate_iPad.m; sourceTree = "<group>"; };
+		67E526B81363314700C67F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		67E526DB13633E0A00C67F2C /* RoundedImageBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundedImageBox.png; sourceTree = "<group>"; };
+		67E526E0136342E600C67F2C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		67E526E1136342E600C67F2C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		67E526E2136342E700C67F2C /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		67E526E3136342E800C67F2C /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E526931363314700C67F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E5269B1363314700C67F2C /* UIKit.framework in Frameworks */,
+				67E5269D1363314700C67F2C /* Foundation.framework in Frameworks */,
+				67E5269F1363314700C67F2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E5268B1363314700C67F2C = {
+			isa = PBXGroup;
+			children = (
+				67E526A01363314700C67F2C /* Round Corner Tester */,
+				67E526991363314700C67F2C /* Frameworks */,
+				67E526971363314700C67F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E526971363314700C67F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E526961363314700C67F2C /* Round Corner Tester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E526991363314700C67F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E5269A1363314700C67F2C /* UIKit.framework */,
+				67E5269C1363314700C67F2C /* Foundation.framework */,
+				67E5269E1363314700C67F2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67E526A01363314700C67F2C /* Round Corner Tester */ = {
+			isa = PBXGroup;
+			children = (
+				67E526E0136342E600C67F2C /* MainViewController.h */,
+				67E526E1136342E600C67F2C /* MainViewController.m */,
+				67E526E2136342E700C67F2C /* NSObject+Additions.h */,
+				67E526E3136342E800C67F2C /* NSObject+Additions.m */,
+				67E526A91363314700C67F2C /* Round_Corner_TesterAppDelegate.h */,
+				67E526AA1363314700C67F2C /* Round_Corner_TesterAppDelegate.m */,
+				67E526AC1363314700C67F2C /* iPhone */,
+				67E526B31363314700C67F2C /* iPad */,
+				67E526A11363314700C67F2C /* Supporting Files */,
+			);
+			path = "Round Corner Tester";
+			sourceTree = "<group>";
+		};
+		67E526A11363314700C67F2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E526DA1363373800C67F2C /* Images */,
+				67E526A21363314700C67F2C /* Round Corner Tester-Info.plist */,
+				67E526A31363314700C67F2C /* InfoPlist.strings */,
+				67E526A61363314700C67F2C /* Round Corner Tester-Prefix.pch */,
+				67E526A71363314700C67F2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67E526AC1363314700C67F2C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				67E526AD1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.h */,
+				67E526AE1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.m */,
+				67E526B01363314700C67F2C /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		67E526B31363314700C67F2C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				67E526B41363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.h */,
+				67E526B51363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.m */,
+				67E526B71363314700C67F2C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		67E526DA1363373800C67F2C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				67E526DB13633E0A00C67F2C /* RoundedImageBox.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E526951363314700C67F2C /* Round Corner Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E526BC1363314700C67F2C /* Build configuration list for PBXNativeTarget "Round Corner Tester" */;
+			buildPhases = (
+				67E526921363314700C67F2C /* Sources */,
+				67E526931363314700C67F2C /* Frameworks */,
+				67E526941363314700C67F2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Round Corner Tester";
+			productName = "Round Corner Tester";
+			productReference = 67E526961363314700C67F2C /* Round Corner Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E5268D1363314700C67F2C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67E526901363314700C67F2C /* Build configuration list for PBXProject "Round Corner Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67E5268B1363314700C67F2C;
+			productRefGroup = 67E526971363314700C67F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E526951363314700C67F2C /* Round Corner Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E526941363314700C67F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E526A51363314700C67F2C /* InfoPlist.strings in Resources */,
+				67E526B21363314700C67F2C /* MainWindow_iPhone.xib in Resources */,
+				67E526B91363314700C67F2C /* MainWindow_iPad.xib in Resources */,
+				67E526DC13633E0A00C67F2C /* RoundedImageBox.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E526921363314700C67F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E526A81363314700C67F2C /* main.m in Sources */,
+				67E526AB1363314700C67F2C /* Round_Corner_TesterAppDelegate.m in Sources */,
+				67E526AF1363314700C67F2C /* Round_Corner_TesterAppDelegate_iPhone.m in Sources */,
+				67E526B61363314700C67F2C /* Round_Corner_TesterAppDelegate_iPad.m in Sources */,
+				67E526E4136342E900C67F2C /* MainViewController.m in Sources */,
+				67E526E5136342E900C67F2C /* NSObject+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67E526A31363314700C67F2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E526A41363314700C67F2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67E526B01363314700C67F2C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E526B11363314700C67F2C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		67E526B71363314700C67F2C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67E526B81363314700C67F2C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67E526BA1363314700C67F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E526BB1363314700C67F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67E526BD1363314700C67F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Round Corner Tester/Round Corner Tester-Prefix.pch";
+				INFOPLIST_FILE = "Round Corner Tester/Round Corner Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67E526BE1363314700C67F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Round Corner Tester/Round Corner Tester-Prefix.pch";
+				INFOPLIST_FILE = "Round Corner Tester/Round Corner Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E526901363314700C67F2C /* Build configuration list for PBXProject "Round Corner Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E526BA1363314700C67F2C /* Debug */,
+				67E526BB1363314700C67F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E526BC1363314700C67F2C /* Build configuration list for PBXNativeTarget "Round Corner Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E526BD1363314700C67F2C /* Debug */,
+				67E526BE1363314700C67F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E5268D1363314700C67F2C /* Project object */;
+}
